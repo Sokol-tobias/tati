@@ -24,7 +24,6 @@ class Juego {
       this.camara.mostrar();
     if (keyIsPressed) {
       this.camara.teclaApretada();
-      this.camara.teclaCapturar();
     }
     for (let i = 0; i < this.capturas.length; i++) {
       this.capturas[i].mostrar();
