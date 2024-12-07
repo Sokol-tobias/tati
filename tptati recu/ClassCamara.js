@@ -24,16 +24,11 @@ class Camara {
     }
     if (keyCode === RIGHT_ARROW) {
       this.moverDer();
-    }
-  }
-
-  teclaCapturar() {
-    console.log ("disparo");
-    if (key === ' ') {
+    }if (key === ' ') {
       this.capturar();
+      console.log("espacio");
     }
   }
-
   capturar() {
     capturas.push(new Captura(this.x + this.ancho / 2, this.y));
   }
